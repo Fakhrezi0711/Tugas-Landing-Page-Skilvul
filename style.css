@@ -1,0 +1,372 @@
+/* Tambahkan kode CSS kalian di file ini */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #006D75;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+#logo {
+    width: 140px;
+    height: 100px;
+}
+
+.track {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.track:hover {
+    color: #87CBB9;
+    cursor: pointer;
+}
+
+.track a {
+    text-decoration: none;
+    color: #006D75;
+}
+
+.track a:hover{
+    color: #87CBB9;
+}
+
+button {
+    cursor: pointer;
+}
+
+#btn-nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 10;
+}
+
+#login{
+    width: 70px;
+    height: 30px;
+    border: 1px solid #87CBB9;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 4px 15px;
+    color: #87CBB9;
+    margin-right: 15px;
+}
+
+#login:hover{
+    background-color: #c8eee4;
+}
+
+#regis{
+    width: 70px;
+    height: 30px;
+    border: 1px solid #87CBB9;
+    background-color: #87CBB9;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+#regis:hover{
+    background-color: #c8eee4;
+}
+
+main{
+    font-family: 'Poppins', sans-serif;
+}
+
+#start{
+    display: flex;
+    margin-top: 28px;
+    margin-left: 49px;
+    margin-right: 49px;
+}
+
+#start h1{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 40px;
+    color: #006D75;
+    margin-top: 97px;
+    margin-bottom: 15.5px;
+}
+
+#start h4{
+    font-family: 'Poppins',sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 120%;
+    color: #87CBB9;
+    margin-bottom: 11px;
+}
+
+#start p{
+    font-family: 'Poppins',sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6D6D6D;
+    margin-bottom: 45px;
+}
+
+#start button{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 200px;
+    align-items: center;
+    padding: 6.4px 15px;
+    gap: 10px;
+    height: 55px;
+    background: #87CBB9;
+    border: 1px solid #87CBB9;
+    border-radius: 10px;
+}
+
+#start button:hover{
+    cursor: pointer;
+    background-color: #c8eee4;
+}
+
+#start img{
+    width: 650px;
+    height: 450px;
+    left: 689px;
+    top: 101px;
+}
+
+#content {
+    margin-top: 39px;
+}
+
+#content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 40px;
+    color: #006D75;
+}
+
+#content #content-text {
+    margin-bottom: 66px;
+}
+
+.content-body {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.content-body img {
+    width: 200px;
+    height: 160px;
+    margin-right: 150px;
+}
+
+.content-body h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 55px;
+    color: #6fac9c;
+    margin-bottom: 15px;
+}
+
+.content-body p {
+    width: 442px;
+    height: 102px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: justify;
+    color: #6D6D6D;
+    margin-bottom: 5px;
+}
+
+.content-body button {
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 165px;
+    height: 50px;
+    background: #87CBB9;
+    border: 1px solid #87CBB9;
+    border-radius: 10px;
+}
+
+.content-body button:hover {
+    cursor: pointer;
+    background-color: #c8eee4;
+}
+
+#content #about {
+    margin-bottom: 11px;
+}
+
+#content .about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 66px;
+}
+
+.about #description {
+    font-family: 'Poppins' sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #6D6D6D;
+}
+
+.about p strong {
+    font-size: 24px;
+    color: #006D75;
+}
+
+.about p b{    
+    color: #006D75;
+}
+
+.about h3 {
+    margin-top: 70px;
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 46px;
+    text-align: center;
+    color:#006D75;
+}
+
+.about div img{
+    margin: 20px;
+    height: 100px;
+    width: 200px;
+}
+
+.about #danone{
+    height: 100px;
+    width: 100px;
+}
+
+#content #partner {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+    margin: 0px 66px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+form input{
+    width: 500px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form #status{
+    width: 16px;
+    height: 16px;
+}
+
+form #submit-form{
+    width: 100px;
+    margin-top: 5px;
+    padding: 5px 5px;
+    border: 1px solid #87CBB9;
+    background-color: #87Cbb9;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+form #submit-form:hover{
+    background-color: #c8eee4;
+}
+
+.footer{
+	background-color: #87CBB9;
+    padding: 70px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .links li {
+    margin-right: 20px;
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
